@@ -1,0 +1,632 @@
+/* this is a css document */
+
+
+/**** THE HUMAN DOCUMENT ****/
+
+/**** structure */
+.page {
+    margin: auto;
+    width: 80em;
+    height: 60em;
+    overflow: hidden;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+
+.page-margin {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+body .page-margin.not(text-area){
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Outer Border */
+
+.stroke.s1 {
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 477px;
+    top: 209px;
+    bottom: 0px;
+    right: 0px;
+    left: -525px;
+    margin: auto;
+    z-index: 1;
+    background-color: rgb(83,46,53);
+    opacity: 0.9;
+}
+
+.stroke.s2 {
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 93px;
+    top: 660px;
+    bottom: 0px;
+    right: 0px;
+    left: -409px;
+    margin: auto;
+    z-index: 1;
+    /* background-color: rgba(83,46,53,100); */
+    transform: rotate(90deg);
+}
+
+.stroke.s2.gradient {
+    background-image:
+    linear-gradient(
+    #753d40, 
+    rgb(83,46,53) 60%);
+    opacity: 0.9;
+
+}
+
+.stroke.s3 {
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 55px;
+    top: 650px;
+    bottom: 0px;
+    right: 0px;
+    left: -262px;
+    margin: auto;
+    z-index: 1;
+    /* background-color: rgba(117,61,64,100); */
+    transform: rotate(90deg);
+}
+
+.stroke.s3.gradient {
+    background-image:
+    linear-gradient(rgb(117,61,64), rgb(103,64,67) 80%);
+    opacity: 0.9;
+}
+
+.stroke.s4{
+position: absolute;
+    display: block;
+    width: 15px;
+    height: 37px;
+    top: 670px;
+    bottom: 0px;
+    right: 0px;
+    left: -134px;
+    margin: auto;
+    z-index: 1;
+    background-color: rgb(157,57,59);
+    transform: rotate(90deg);
+    opacity: 0.9;
+}
+
+.stroke.s5{
+position: absolute;
+    display: block;
+    width: 25px;
+    height: 192px;
+    top: 660px;
+    bottom: 0px;
+    right: 0px;
+    left: 93px;
+    margin: auto;
+    z-index: 1;
+    /* background-color: rgba(157,57,59,100); */
+    transform: rotate(90deg);
+}
+
+.stroke.s5.gradient {
+    background-image:
+    linear-gradient(#823b49 50%,
+    #b44637,
+    rgb(157,57,59)                 
+                    );
+    opacity: 0.9;
+}
+
+.stroke.s6 {
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 135px;
+    top: 501px;
+    bottom: 0px;
+    right: 0px;
+    left: 260px;
+    margin: auto;
+    z-index: 1;
+    /* background-color: rgba(130,59,73,100); */
+}
+
+.stroke.s6.gradient {
+    background-image:
+    linear-gradient(
+    #45383f,
+    rgb(130,59,73)
+                    );
+    opacity: 0.9;
+}
+
+.stroke.s7 {
+        position: absolute;
+    display: block;
+    width: 25px;
+    height: 300px;
+    top: 0px;
+    bottom: 120px;
+    right: 0px;
+    left: 89px;
+    margin: auto;
+    z-index: 1;
+    /* background-color: rgba(83,46,53,100); */
+      transform: rotate(135deg);
+      clip-path: url(#customPath7);
+      
+}
+
+
+.stroke.s7.gradient {
+background-image: linear-gradient( #edc436 5%, 
+#e8833b 20%, 
+#c25735 60%, 
+rgb(157,57,59) 80%);
+    opacity: 0.9;
+}
+
+.stroke.s7_5 {
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 128px;
+    top: 110px;
+    bottom: 0px;
+    right: 0px;
+    left: 320px;
+    margin: auto;
+    z-index: 1;
+    transform: rotate(135deg);
+}
+
+
+.stroke.s7_5.gradient {
+    background-image: linear-gradient(
+    rgba(237,196,54,1)70%, 
+    rgba(237,196,54,0.1) );
+}
+
+
+.stroke.s8 {
+   position: absolute;
+    display: block;
+    width: 418px;
+    height: 25px;
+    top: 0px;
+    bottom: 290px;
+    right: 0px;
+    left: -133px;
+    margin: auto;
+    z-index: 1;
+    opacity: 0.9;
+    /* transform: rotate(90deg); */
+    clip-path: url(#customPath);
+}
+
+.stroke.s8.gradient {
+    background-image:
+    linear-gradient( to left, 
+    rgb(83,46,53),
+    #a3322e,
+    rgb(83,46,53) 70%
+    );
+    /* linear-gradient(
+    rgb(83,46,53),
+    #a3322e,
+    rgb(83,46,53) 70%
+    ); */
+    opacity: 0.9;
+}
+
+.stroke.s9 {
+    position: absolute;
+    display: block;
+    width: 440px;
+    height: 25px;
+    top: 0;
+    bottom: -180px;
+    right: 0px;
+    left: -47px;
+    margin: auto;
+    z-index: 1;
+    clip-path: url(#customPath9);
+    
+}
+
+.stroke.s9.gradient {
+    background-image: linear-gradient( to left,
+    rgba(237,196,54,1) 7%, 
+    rgba(228,166,57,0.9), 
+    rgba(201,83,53,0.9), 
+   rgba(199,76,35,0.9), 
+   rgba(163,50,46,0.9), 
+    rgba(153,53,51,0.9), 
+    rgba(126,44,56,0.9), 
+    rgba(83,46,53,0.9)
+    );
+}
+
+.stroke.s9_5 {
+    position: absolute;
+    display: block;
+    width: 7px;
+    height: 25px;
+    top: 0;
+    bottom: -180px;
+    right: 0px;
+    left: -493px;
+    margin: auto;
+    z-index: 1;
+    clip-path: url(#customPath9);
+    background-color: rgb(83,46,53);
+    opacity: 0.9;
+    
+}
+
+
+.stroke.s10 {
+   position: absolute;
+    display: block;
+    width: 25px;
+    height: 295px;
+    top: 410px;
+    bottom: 0px;
+    right: 0px;
+    left: 160px;
+    margin: auto;
+    z-index: 1;
+    /* background-color: rgba(83,46,53,100); */
+    transform: rotate(45deg);
+    /* background-color: rgba(130,59,73,100); */
+}
+
+
+.stroke.s10.gradient {
+   background-image: linear-gradient( rgba(237,196,54,1) 30%, 
+   rgba(232,131,59,0.9), 
+   rgba(194,87,53,0.9), 
+   rgb(157,57,59, 0.9) );
+}
+
+.stroke.s11 {
+position: absolute;
+    display: block;
+    width: 25px;
+    height: 21px;
+    top: 225px;
+    bottom: 0px;
+    right: 0px;
+    left: 264px;
+    margin: auto;
+    z-index: 1;
+    background-color: #45383f;
+    opacity: 0.9;
+}
+
+
+.stroke.s12 {
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 25px;
+    top: 130px;
+    bottom: 0px;
+    right: 0px;
+    left: 261px;
+    margin: auto;
+    z-index: 1;
+    background-color: #45383f;
+    opacity: 0.9;
+}
+
+.stroke.s13 {
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 128px;
+    top: 0px;
+    bottom: 138px;
+    right: 0px;
+    left: 260px;
+    margin: auto;
+    z-index: 1;
+    /* background-color: rgba(130,59,73,100); */
+}
+
+.stroke.s13.gradient {
+background-image: linear-gradient( rgb(83,46,53), #45383f );
+    opacity: 0.9;
+}
+
+.stroke.s14 {
+    position: absolute;
+    display: block;
+    width: 4px;
+    height: 25px;
+    top: 0px;
+    bottom: 290px;
+    right: 0px;
+    left: 280px;
+    margin: auto;
+    z-index: 1;
+    background-color: rgb(83,46,53);
+    opacity: 0.9;
+}
+
+/* *** ANGLES */
+
+.triangle.t1 {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    top: 344px;
+    bottom: 0px;
+    right: 0px;
+    left: 260px;
+    margin: auto;
+    z-index: 1;
+    border-left: 25px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 25px solid #45383f;
+    opacity: 0.9;
+}
+
+.triangle.t2 {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    top: 270px;
+    bottom: 0px;
+    left: 760px;
+    margin: auto;
+    z-index: 1;
+    border-left: 25px solid transparent;
+    border-right: 25px transparent;
+    border-bottom: 25px solid #45383f;
+    opacity: 0.9;
+    transform: rotate(180deg);
+}
+
+.triangle.t2_5 {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    top: 0px;
+    bottom: 265px;
+    left: 600px;
+    margin: auto;
+    z-index: 1;
+    border-left: 25px solid transparent;
+    border-right: 25px transparent;
+    border-bottom: 25px solid rgb(157,57,59);
+    opacity: 0.9;
+    transform: rotate(45deg);
+}
+
+.triangle.t3 {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    top: 180px;
+    bottom: 0px;
+    left: 790px;
+    margin: auto;
+    z-index: 1;
+    border-left: 43px solid transparent;
+    border-right: 43px solid transparent;
+    border-bottom: 47px solid #edc436;
+    /* opacity: 0.9; */
+    transform: rotate(90deg);
+}
+
+.triangle.t4 {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    top: 80px;
+    bottom: 0px;
+    right: 0px;
+    left: 261px;
+    margin: auto;
+    z-index: 1;
+    border-left: 0px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #45383f;
+    opacity: 0.9
+}
+
+.triangle.t5 {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    top: 14px;
+    bottom: 0px;
+    right: 0px;
+    left: 260px;
+    margin: auto;
+    z-index: 1;
+    border-left: 25px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 25px solid #45383f;
+    opacity: 0.9;
+    transform: rotate(270deg);
+}
+
+.triangle.t6 {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    top: 636px;
+    bottom: 0px;
+    left: 595px;
+    margin: auto;
+    z-index: 1;
+    border-left: 25px solid transparent;
+    border-right: 25px transparent;
+    border-bottom: 25px solid rgb(157,57,59);
+    opacity: 0.9;
+    transform: rotate(225deg);
+}
+
+
+
+/********** Inner */
+
+
+/* The Humument */
+
+lb::before {
+    content: '\a';
+    white-space: pre;
+}
+
+div.body {
+text-align:justify; /* for edge */
+text-align-last: justify;
+}
+
+.text-block {
+   padding-top: 220px;
+   padding-bottom: 70px;
+   width: 390px;
+   
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+
+h1, h2 {
+
+   text-align: center;
+} 
+
+.title {
+    position: absolute;
+    display: block;
+    top: 55px;
+    bottom: 0;
+    margin: auto;
+    width: 390px;
+    text-align: justify;
+    z-index: 2;
+    /* visibility: hidden; */
+}
+
+h1#A_Humument {
+    font-size: 35px;
+}
+
+.subtitle {
+    position: absolute;
+    display: block;
+    top: 235px;
+    bottom: 0;
+    margin: auto;
+    width: 390px;
+    text-align: justify;
+    z-index: 2;
+    /* visibility: hidden;*/
+}
+.title#New_Edition {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 390px;
+    text-align: justify;
+    z-index: 3;
+    /*  visibility: hidden; */
+}
+
+h2#New_Edition {
+    font-family: Old English Text MT;
+    text-transform: none;
+    font-size: 18px;
+    z-index: 3;
+}
+
+.stroke.s {
+    position: absolute;
+    display: block;
+    top: 0px;
+    bottom: 415px;
+    left: 0;
+    right: 110px;
+    margin: auto;
+    height: 25px;
+    width: 90px;
+    z-index: 1;
+    background-color: white;
+}
+
+
+/************ typography */
+/* Match typefaces
+/* Smallcaps first word **/
+
+
+h1 { font-family: Georgia, Times, "Times New Roman", serif; font-size: 20px; font-style: normal; font-variant: normal; text-transform: uppercase; font-weight: 100; line-height: 26.4px; letter-spacing: 0.1em; margin-bottom: 25px;} 
+h2 { font-family: Georgia, Times, "Times New Roman", serif; font-size: 16px; font-style: normal; font-variant: normal; text-transform: uppercase; font-weight: 100; line-height: 15.4px; margin-top: 25px;} 
+p { font-family: Georgia, Times, "Times New Roman", serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;}
+
+p {
+text-indent: 15px;
+margin: 0;
+
+}
+
+
+.overlay-blue {
+   position: absolute; 
+    display: block;
+    width: 415px;
+    height: 500px;
+    top: 185px; /* 185 */
+    bottom: 0px;
+    right: 0;
+    left: -130px;
+   margin: auto;
+   background-image: url('blue texture.png'); 
+    /*   background-color: rgba(0,0,0,0.5); */
+    z-index: 1;
+    /*  margin-bottom: 20px; */
+    /*  clip-path: url(#cross); */ /* Calls on clipPath "cross" */
+   /*   clip-path: url(#myPath); */ /* test svg clipPath - teardrop */
+      clip-path: url(#customPath); 
+}
+
+#customPath {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    top: 300px;
+    bottom: 0px;
+    margin: auto;
+}
+
+
